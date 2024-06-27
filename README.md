@@ -29,12 +29,10 @@ Before running the application, ensure you have the following installed:
 
 Create a .env file in the root directory:
 
-    ```bash
     PORT=5000
     CONNECTION_STRING=<Your_MongoDB_Connection_URI>
     REDIS_HOST=localhost
     REDIS_PORT=6379
-    ```
 
 Replace <Your_MongoDB_Connection_URI> with your MongoDB connection string.
 
