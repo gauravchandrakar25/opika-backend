@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   profilePicture: {
-    type: Buffer,
+    type: String,
     required: false,
     default: "",
   },

@@ -14,10 +14,11 @@ const connectDb = async () => {
     const collections = await db.listCollections({ name: "users" }).toArray();
     if (collections.length === 0) {
       await db.collection("users").insertOne({
-        name: "John Doe",
-        email: "jane.doe@example.com",
+        name: "John Wick",
+        email: "jane.wick@opika.com",
         bio: "Experienced backend developer.",
-        profilePicture: "https://example.com/dummy.jpg",
+        profilePicture:
+          "https://mir-s3-cdn-cf.behance.net/project_modules/hd/d95c1f148207527.62d1246c25004.jpg",
       });
       console.log("User collection created with a dummy document");
     } else {
