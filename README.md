@@ -48,7 +48,6 @@ Follow these steps to get the backend application up and running on your local m
 
    ```bash
    git clone <repository-url>
-   cd <repository-folder>
    ```
 
 2. Install dependencies:
