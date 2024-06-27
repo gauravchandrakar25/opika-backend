@@ -1,6 +1,6 @@
 # Opika Backend Application
 
-This repository contains a Node.js backend application built with Express, MongoDB, and Redis. It provides RESTful API endpoints to manage user profiles, leveraging caching for improved performance.
+This repository contains a Node.js backend application built with Express, MongoDB, and Redis.
 
 ## Table of Contents
 
@@ -8,19 +8,12 @@ This repository contains a Node.js backend application built with Express, Mongo
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-  - [Configuration](#configuration)
-  - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
-- [Deployment](#deployment)
-- [Monitoring](#monitoring)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
 - **MongoDB Integration**: Integration with MongoDB for data storage.
 - **Redis Caching**: Caching user data with Redis for faster access.
-- **RESTful APIs**: REST endpoints for user operations.
 - **Error Handling**: Centralized error handling and logging.
 
 ## Prerequisites
@@ -72,5 +65,5 @@ Follow these steps to get the backend application up and running on your local m
 
 ## API Endpoints
 
-- GET /api/users/
+- GET /api/users/:id
   : Fetch user by ID.
