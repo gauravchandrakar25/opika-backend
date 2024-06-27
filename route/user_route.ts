@@ -2,6 +2,6 @@ import express from "express";
 const router = express.Router();
 const { userDetails } = require("../controller/user");
 
-router.get("/user/:id", userDetails);
+router.get("/users/:id", userDetails);
 
 module.exports = router;
