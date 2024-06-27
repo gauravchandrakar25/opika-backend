@@ -10,6 +10,7 @@ const userDetails = async (req: Request, res: Response) => {
     // Check if user data is in Redis
     const cachedUser = await getCache(cacheKey);
     if (cachedUser) {
+      console.log("cachedUser", cachedUser);
       return res.json(cachedUser);
     }
 

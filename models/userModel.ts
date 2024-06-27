@@ -9,9 +9,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  profile_picture: {
-    type: String,
-    required: true,
+  profilePicture: {
+    type: Buffer,
+    required: false,
+    default: "",
   },
   bio: {
     type: String,
